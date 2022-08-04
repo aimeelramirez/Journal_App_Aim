@@ -2,4 +2,4 @@
 My Journal App - Small Application Design
 
 
-![](https://i.imgur.com/ZXdJJWW.gif)
+![](./assets/first-initial-example.gif)
