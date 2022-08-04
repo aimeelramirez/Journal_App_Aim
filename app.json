@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "Journal_App_Aim",
-    "slug": "Journal_App_Aim",
+    "slug": "journalappaim",
+    "owner": "alramirez1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
