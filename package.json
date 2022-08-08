@@ -12,17 +12,21 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^45.0.8",
-    "expo-splash-screen": "~0.15.1",
-    "expo-status-bar": "~1.3.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-native": "0.68.2",
-    "react-native-unimodules": "^0.14.10",
-    "react-native-web": "0.17.7"
+    "@unimodules/core": "^7.1.2",
+    "expo": "^46.0.0",
+    "expo-constants": "^13.2.3",
+    "expo-modules-core": "~0.11.3",
+    "expo-splash-screen": "~0.16.1",
+    "expo-status-bar": "~1.4.0",
+    "expo-system-ui": "^1.3.0",
+    "expo-updates": "~0.14.3",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.3",
+    "react-native-web": "~0.18.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.18.6",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "eslint-plugin-react": "^7.26.0",
     "rn-nodeify": "^10.3.0"
