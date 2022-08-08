@@ -6,8 +6,14 @@ My Journal App - Small Application Design
 
 ## How to start:
 - yarn install 
-- npx pod-install 
 
+### ios:
+- npx pod-install 
+### android:
+- ./gradlew 
+```
+BUILD SUCCESSFUL in 6m 17s
+```
 ## How to run:
 - `npm run rn-start` (Runs both iOS and Android devices)
     - <u>Read the directions when prompted. </u>
