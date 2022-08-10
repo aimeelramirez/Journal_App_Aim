@@ -3,24 +3,35 @@ My Journal App - Small Application Design
 
 
 ![](./assets/first-initial-example.gif)
-
-## How to start:
-- yarn install 
+![](./assets/SharedScreenshot.jpg)
 
 ### ios:
-- npx pod-install 
+- `npx pod-install`
+ - https://reactnative.dev/docs/running-on-device
+
 ### android:
-- ./gradlew 
+- `./gradlew <your cmd here>`
+  - https://reactnative.dev/docs/running-on-device
+
 ```
 BUILD SUCCESSFUL in 6m 17s
 ```
 ## How to run:
-- `npm run rn-start` (Runs both iOS and Android devices)
-    - <u>Read the directions when prompted. </u>
-       - <i>"...Please launch an emulator manually or connect a device. Otherwise app may fail to launch."</i>(you can run them separately with `npm run rn-ios` or `yarn ios`)
-         
-- `npm run web` (Runs web view)
+Start: `npm run start` (pre-builds deps)
 
+ ### Run the following (ios devices):
+
+- `npm run rn-start` (Runs both iOS and Android devices)
+
+<br>OR</br>
+
+- `npm run web` (scan code to device with expo go app or run with an emulator)
+    - expo workflow.
+
+### Run the following (windows devices):
+ - `npm install -g win-node-env`
+ - `npm run web` (scan code to device with expo go app or run with an emulator)
+   
 ## How to build:
 - `expo build:ios`
 - `expo build:web`
@@ -30,3 +41,8 @@ BUILD SUCCESSFUL in 6m 17s
 - `expo start --help`
 - `expo`
 - `yarn react-native`
+
+
+## **<u>Please, Read the directions when prompted. </u>**
+
+
