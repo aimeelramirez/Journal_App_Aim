@@ -12,6 +12,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "deprecated-react-native-prop-types": "^2.3.0",
     "expo": "^45.0.8",
     "expo-modules-core": "~0.9.2",
     "expo-splash-screen": "~0.15.1",
